@@ -1,0 +1,24 @@
+{
+  "author": "Jonathan Gottfried <jonmarkgo@gmail.com>",
+  "name": "TwilioPowerOutlet",
+  "description": "Twilio + Node.js Power Outlet control",
+  "version": "1.0.0",
+  "subdomain": "TwilioPowerOutlet",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonmarkgo/TwilioPowerOutlet.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": ">=3.0",
+    "twilio-api": "0.3.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.4"
+  }
+}
